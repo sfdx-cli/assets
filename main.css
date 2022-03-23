@@ -1,20 +1,7 @@
-:root {
-    --background-color: red;
-  }
-  
-  body {
-      display: block;
-      margin: 0px;
-      background-color: var(--background-color);
-  }
-  
-  .slds-dropdown {
-      border: 1px solid #e5e5e5;
-      background: var(--sds-c-input-color-background,White);
-      color: var(--slds-c-input-text-color,#181818);
-  }
-  
-  .slds-listbox--vertical .slds-listbox__option.slds-has-focus, .slds-listbox--vertical .slds-listbox__option:focus, .slds-listbox--vertical .slds-listbox__option:hover, .slds-listbox_vertical .slds-listbox__option.slds-has-focus, .slds-listbox_vertical .slds-listbox__option:focus, .slds-listbox_vertical .slds-listbox__option:hover {
-      background-color: var(--hover-background-color,#f3f3f3);
-      text-decoration: none;
-  }
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+    margin-bottom: 0.5rem;
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.2;
+    color: var(--primary-color, #ffffff)
+}
