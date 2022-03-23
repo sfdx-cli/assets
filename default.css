@@ -1,0 +1,114 @@
+:root {
+            --devColor: #ff000000;
+            --logoImageUrl: url({!$Resource.BrandingCSS  + '/logos/' + v.communityLogo});
+        
+
+            --navbarBackgroundColor: #091A3E;
+            --navbarTextColor: #ffffff;
+            --navbarSearchBox: #334E87;
+            --navbarSearchBoxBackgroundColor: #040E2B;
+            --navMenuBackgroundColor: #17325C;
+            --navMenuHoverColor: #334F87;
+            --navMenuTextHoverColor: #75abe7;
+        }
+            
+        .default-light {
+            --backgroundColor: #ffffff;
+            --navbarBackgroundColor: #091A3E;
+            --navbarTextColor: #ffffff;
+            --navbarSearchBox: #334E87;
+            --navbarSearchBoxBackgroundColor: #040E2B;
+            --navMenuBackgroundColor: #17325C;
+            --navMenuHoverColor: #334F87;
+            --navMenuTextHoverColor: #75abe7;
+            --tableBackgroundColor: #ffffff;
+            --primaryTextColor: rgb(0, 0, 0);
+            --secondaryTextColor: #1B5693;
+            --tertiaryTextColor: rgba(0, 0, 0, 0.15);
+            --linkColor: #498DC8;
+            --hoverColor: #f5f5f5;
+            --fillColor: #F2F2F2;
+            --buttonBackgroundColor: #091A3E;
+            --customComponentBackground: #F0F1F3;
+        
+        	--d3-backgroundColor: #F7F7F7;
+            --d3-textColor: #75ABEF;
+        	--d432-borderColor: #DCE1E6;
+        	--d3-legendBackgroundColor: #D7DCE2;
+
+            --ea-darkDashboardVisibility: hidden;
+            --ea-darkDashboardHeight: 0px;
+            --ea-lightDashboardVisibility: visible;
+            --ea-lightDashboardHeight: auto;
+        }
+           
+        .default-dark {
+            --backgroundColor: #091A3E;
+            --navbarBackgroundColor: #091A3E;
+            --navbarTextColor: #ffffff;
+            --navbarSearchBox: #334E87;
+            --navbarSearchBoxBackgroundColor: #040E2B;
+            --navMenuBackgroundColor: #17325C;
+            --navMenuHoverColor: #334F87;
+            --navMenuTextHoverColor: #75abe7;
+            --tableBackgroundColor: #152C4D;
+            --primaryTextColor: rgb(255, 255, 255);
+            --secondaryTextColor: #c1c4c7;
+            --tertiaryTextColor: rgba(255,255,255, 0.3);
+            --linkColor: #498DC8;
+            --hoverColor: #1d3658;
+            --fillColor: #334E87;
+            --buttonBackgroundColor: #334E87;
+            --customComponentBackground: #2C4278;
+        
+        	--d3-backgroundColor: #040E2B;
+            --d3-textColor: #97C6FF;
+        	--d3-borderColor: #335779;
+        	--d3-legendBackgroundColor: #16325C;
+
+            --ea-darkDashboardVisibility: visible;
+            --ea-darkDashboardHeight: auto;
+            --ea-lightDashboardVisibility: hidden;
+            --ea-lightDashboardHeight: 0px;
+        }
+
+        * {
+            --lwc-brandLogoImage: var(--logoImageUrl);    
+            --lwc-colorTextLabel: var(--secondaryTextColor);
+            --lwc-colorTextDefault: var(--primaryTextColor);
+            --lwc-brandTextLink: var(--linkColor);
+            --lwc-colorTextWeak: var(--primaryTextColor);
+            --lwc-brandAccessible: var(--primaryTextColor);
+            --lwc-brandAccessibleActive: var(--primaryTextColor);
+            --lwc-colorForegroundPrimary: var(--backgroundColor);
+            --lwc-colorTextLinkDisabled: var(--linkColor);
+            
+            --lwc-colorTextBrandPrimary: var(--navbarTextColor);
+            --lwc-colorBackgroundButtonBrandHover: var(--buttonBackgroundColor); 
+            --lwc-colorBackgroundButtonBrand: var(--buttonBackgroundColor); 
+            --lwc-buttonColorBorderBrandPrimary: var(--buttonBackgroundColor); 
+            --lwc-colorBackgroundInputActive: var(--backgroundColor);
+            --lwc-brandAccessibleActive: var(--primaryTextColor);
+            --lwc-pageHeaderColorBackground: var(--backgroundColor);
+            
+            --lwc-tableColorTextHeader: var(--primaryTextColor);
+            --lwc-tableColorBackgroundHeader: var(--tableBackgroundColor);
+            --lwc-tableColorBackgroundStripes: var(--tableBackgroundColor);
+            --lwc-tableColorBackgroundHeaderFocus: var(--backgroundColor);
+            --lwc-tableColorBackgroundHeaderHover: var(--backgroundColor);
+            --lwc-tableColorBackgroundHeaderResizableHandle: var(--primaryTextColor);
+            
+            --lwc-colorBackgroundRowHover: var(--hoverColor);
+            
+            --lwc-colorBackground: var(--backgroundColor);
+            --lwc-colorBackgroundAlt: var(--backgroundColor);
+            --lwc-colorBackgroundStencil: var(--fillColor);
+            --lwc-colorBackgroundInput: var(--backgroundColor);
+            --lwc-colorBackgroundInputDisabled: #55555555;
+
+            --lwc-cardColorBorder: var(--tertiaryTextColor);
+            
+            --sds-c-modal-content-color-background:var(--backgroundColor);
+            --sds-c-modal-text-color: var(--primaryTextColor);
+            --sds-c-modal-content-text-color: var(--primaryTextColor);
+        }
