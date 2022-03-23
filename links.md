@@ -1,7 +1,7 @@
 https://cdn.jsdelivr.net/gh/sfdx-cli/assets/variable.css
 https://cdn.jsdelivr.net/gh/sfdx-cli/assets/main.css
 
-
+https://sfdx-cli.github.io/assets/variable.css
 https://sfdx-cli.github.io/assets/main.css
 
 
