@@ -14,3 +14,4 @@ https://sfdx-cli.github.io/assets/main.css
 
 
 
+https://sfdx-cli.github.io/mockapi/sample.json
