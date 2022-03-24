@@ -14,9 +14,9 @@
     --color-9: #4B4B4B;
     --color-10: #1E1F21;
 
-    --nav-brand-1: var(var(--color-10));
-    --nav-brand-2: var(var(--color-3));
-    --nav-brand-3: var(var(--color-4));
-    --nav-brand-4: var(var(--color-5));
+    --nav-brand-1: var(--color-10);
+    --nav-brand-2: var(--color-3);
+    --nav-brand-3: var(--color-4);
+    --nav-brand-4: var(--color-5);
 }
 
