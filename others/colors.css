@@ -1,0 +1,34 @@
+:root{
+    --color-1: #F8F8F8;
+    --color-2: #FFFFFF;
+    --color-3: #7367F0;
+    --color-4: #82868B;
+    --color-5: #28C76F;
+    --color-6: #EA5455; 
+    --color-7: #FF9F43;
+    --color-8: #00CFE8;
+    --color-9: #4B4B4B;
+
+}
+
+:host {
+    --header-height: 3rem;
+    --nav-width: 68px;
+    /*===== Colors =====*/
+    --first-color: #3717b9;
+    --first-color-light: #AFA5D9;
+    --white-color: #ffffff;
+    --white-color2: #c2c2c2;
+    --background-color: #000000;
+    --background-color-light:#1E1F21;
+    --hover-background-color: #555555;
+    --color-active: #a6bde7;
+    /*===== Font and typography =====*/
+    --body-font: 'Source+Sans+Pro', sans-serif;
+    --normal-font-size: 1rem;
+    /*===== z index =====*/
+    --z-fixed: 100;
+    /*===== Slide width =====*/
+    --slide-width: 248px;
+    --slide-width2: 216px;
+  }
