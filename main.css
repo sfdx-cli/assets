@@ -6,6 +6,8 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
     color: var(--primary-color, #ffffff)
 }
 
+
+/* Theme adjustment code */
 html body .content {
     padding: 0;
     position: relative;
@@ -13,4 +15,16 @@ html body .content {
     backface-visibility: hidden;
     min-height: calc(100% - 4rem);
     margin-left: 0px;
+}
+
+.card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: var(--background-color-light);
+    background-clip: border-box;
+    border: 1px solid rgba(34, 41, 47, 0.125);
+    border-radius: 0.5rem;
 }

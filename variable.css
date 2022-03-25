@@ -18,5 +18,14 @@
     --nav-brand-2: var(--color-3);
     --nav-brand-3: var(--color-5);
     --nav-brand-4: var(--color-7);
+
+    --first-color: #3717b9;
+    --first-color-light: #AFA5D9;
+    --white-color: #ffffff;
+    --white-color2: #c2c2c2;
+    --background-color: #000000;
+    --background-color-light:#1E1F21;
+    --hover-background-color: #555555;
+    --color-active: #a6bde7;
 }
 
