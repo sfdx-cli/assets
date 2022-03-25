@@ -18,3 +18,6 @@ https://sfdx-cli.github.io/mockapi/sample.json
 
 
 https://test-lttrust.cs196.force.com/lwrtest/s/demo1
+
+
+https://vuexy-admin.vercel.app/html/ltr/vertical-menu-template-dark/index.html
