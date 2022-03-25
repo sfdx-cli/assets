@@ -8,6 +8,12 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 
 
 /* Theme adjustment code */
+html body {
+    height: 100%;
+    background-color: var(--background-color);
+}
+
+
 html body .content {
     padding: 0;
     position: relative;
