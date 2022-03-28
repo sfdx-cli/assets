@@ -108,3 +108,10 @@ html body .content {
 	margin-top: 10px;
 	font-size: 1.5em;
 }
+
+
+/* collapsible section */
+
+.slds-card {
+	background-color: var(--background-color);
+}
