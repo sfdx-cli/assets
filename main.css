@@ -74,6 +74,7 @@ html body .content {
 	padding: 5px 20px;
 	margin: 20px 0px;
 	margin-top: 40px;
+	border-radius: 0.5rem;
 }
 
 .dashboard-card__title {
