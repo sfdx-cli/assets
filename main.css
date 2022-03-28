@@ -34,3 +34,75 @@ html body .content {
     border: 1px solid rgba(34, 41, 47, 0.125);
     border-radius: 0.5rem;
 }
+
+/* Dashboard CSS */
+.title-card{
+	background-color: var(--background-color-light); 
+	padding: 5px 20px;
+	margin: 20px 0px;
+}
+
+.title-card__title{
+	margin: 0px 0px;
+	font-size: large;
+}
+
+.number-card{
+	background-color: var(--background-color-light); 
+	padding: 15px 30px;
+	border: #C1c1c1 1px solid;
+	margin: -1px;;
+}
+
+.number-card__title{
+	font-size: small;
+}
+
+.number-card__number{
+	font-size: xx-large;
+	font-weight: 700;
+}
+
+.number-card__more{
+	text-align: right;
+	font-size: small;
+	text-decoration: underline;    
+}
+
+.dashboard-card{
+	background-color: var(--background-color-light); 
+	padding: 5px 20px;
+	margin: 20px 0px;
+	margin-top: 40px;
+}
+
+.dashboard-card__title {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	font-size: x-large;
+	border-bottom: var(--color-active) 2px solid;
+}
+
+.data1{
+	fill: #4284C5;
+	display: inline;
+	margin: 10px;
+}
+
+.data2{
+	fill: #DF9427;
+	display: inline;
+	margin: 10px;
+}
+
+.data3{
+	fill: #FCCF2D;
+	display: inline;
+	margin: 10px;
+}
+
+.d3-title{
+	font-weight: bold;
+	text-align: center;
+	margin-top: 10px;
+}
