@@ -103,8 +103,8 @@ html body .content {
 }
 
 .d3-title{
-	font-weight: bold;
+	font-weight: normal;
 	text-align: center;
 	margin-top: 10px;
-	font-size: 1em;
+	font-size: 1.5em;
 }
