@@ -29,7 +29,7 @@ html body .content {
     flex-direction: column;
     min-width: 0;
     word-wrap: break-word;
-    background-color: var(--background-color-light);
+    background-color: var();
     background-clip: border-box;
     border: 1px solid rgba(34, 41, 47, 0.125);
     border-radius: 0.5rem;
@@ -127,16 +127,8 @@ html body .content {
     border-radius: 0.5rem;
 }
 
-.body-div[c-lwrAdminThemeLayout_lwrAdminThemeLayout] {
-    position: relative;
-    margin: var(--header-height) 0 0 0;
-    padding: 0 1rem;
-    font-family: var(--body-font);
-    font-size: var(--normal-font-size);
-    background-color: var(--background-color);
-    color: var(--white-color);
-    -webkit-transition: .5s;
-    transition: .5s;
+.slds-card[c-collapsible_section_collapsible_section] {
+	background-color: var(--background-color);
 }
 
 details[c-collapsible_section_collapsible_section] > summary[c-collapsible_section_collapsible_section] {
