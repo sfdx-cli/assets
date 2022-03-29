@@ -15,6 +15,6 @@ details[c-collapsible_section_collapsible_section] > summary[c-collapsible_secti
     outline: none;
 }
 
-[c-collapsible_section_collapsible_section] {
-    
+[c-collapsible_section_collapsible_section] .slds-card{
+    background-color: var(--background-color);
 }
