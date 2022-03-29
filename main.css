@@ -115,3 +115,21 @@ html body .content {
 .slds-card {
 	background-color: var(--background-color-light);
 }
+
+.body-div[c-lwrAdminThemeLayout_lwrAdminThemeLayout] {
+    position: relative;
+    margin: var(--header-height) 0 0 0;
+    padding: 0 1rem;
+    font-family: var(--body-font);
+    font-size: var(--normal-font-size);
+    background-color: var(--background-color);
+    color: var(--white-color);
+    -webkit-transition: .5s;
+    transition: .5s;
+}
+
+details[c-collapsible_section_collapsible_section] > summary[c-collapsible_section_collapsible_section] {
+    padding: 4px;
+    background-color: var(--background-color);
+    outline: none;
+}
