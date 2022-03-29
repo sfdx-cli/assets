@@ -1,3 +1,5 @@
+@import './css-components/custom-slds.css';
+
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
     margin-bottom: 0.5rem;
     font-family: inherit;
@@ -109,4 +111,4 @@ html body .content {
 	font-size: 1.5em;
 }
 
-@import 'css-components/custom-slds.css';
+
