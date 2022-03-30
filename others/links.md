@@ -24,3 +24,33 @@ https://vuexy-admin.vercel.app/html/ltr/vertical-menu-template-dark/index.html
 
 
 https://cdn.jsdelivr.net/gh/sfdx-cli/assets/
+
+
+col-xl-3 col-lg-4 col-md-6 col-sm-12 col-12
+
+
+.forceCommunityThemeNav .themeNavContainer .navMenuType-expanded {
+    min-height: 32px;
+    opacity: 0;
+}
+
+.forceCommunityThemeNav.themeNavContainer.navMenuType-expanded {
+    min-height: 32px;
+    opacity: 1 !important;
+}
+
+
+
+
+
+.forceCommunityThemeNav.themeNavContainer.navMenuType-expanded.doneRendering {
+    opacity: 1;
+}
+
+.forceCommunityThemeNav.themeNavContainer.navMenuType-expanded {
+    min-height: 32px;
+    opacity: 0;
+}
+
+
+
