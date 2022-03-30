@@ -52,5 +52,7 @@ col-xl-3 col-lg-4 col-md-6 col-sm-12 col-12
     opacity: 0;
 }
 
+.forceCommunityThemeHeaderCompact .themeNav { visibility:visible !important; }
+
 
 
