@@ -12,7 +12,7 @@ https://sfdx-cli.github.io/assets/main.css
 <link rel="stylesheet" rel="stylesheet" href="https://cdn.jsdelivr.net/gh/sfdx-cli/assets/app-assets/css/bootstrap.css" />
 
 
-
+https://cdn.jsdelivr.net/gh/sfdx-cli/assets/variable.css
 
 https://sfdx-cli.github.io/mockapi/sample.json
 
@@ -26,33 +26,13 @@ https://vuexy-admin.vercel.app/html/ltr/vertical-menu-template-dark/index.html
 https://cdn.jsdelivr.net/gh/sfdx-cli/assets/
 
 
-col-xl-3 col-lg-4 col-md-6 col-sm-12 col-12
 
+@import "navigation.css"; /* Using a string */
 
-.forceCommunityThemeNav .themeNavContainer .navMenuType-expanded {
-    min-height: 32px;
-    opacity: 0;
-}
+or
 
-.forceCommunityThemeNav.themeNavContainer.navMenuType-expanded {
-    min-height: 32px;
-    opacity: 1 !important;
-}
+@import url("navigation.css"); /* Using a url */
 
-
-
-
-
-.forceCommunityThemeNav.themeNavContainer.navMenuType-expanded.doneRendering {
-    opacity: 1;
-}
-
-.forceCommunityThemeNav.themeNavContainer.navMenuType-expanded {
-    min-height: 32px;
-    opacity: 0;
-}
-
-.forceCommunityThemeHeaderCompact .themeNav { visibility:visible !important; }
 
 
 
