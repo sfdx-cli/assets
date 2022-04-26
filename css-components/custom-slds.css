@@ -18,3 +18,19 @@ details[c-collapsible_section_collapsible_section] > summary[c-collapsible_secti
 [c-collapsible_section_collapsible_section] .slds-card{
     background-color: var(--background-color);
 }
+
+/* slide nav */
+
+.slds-button--neutral, .slds-button_neutral {
+    --slds-c-button-spacing-inline-start: none;
+    --slds-c-button-spacing-inline-end: none;
+    --slds-c-button-color-background: #00000000;
+    --slds-c-button-color-border: #00000000;
+    color: var(--white-color);
+}
+
+.slds-button:focus, .slds-button:hover {
+    --slds-c-button-color-border: #00000000;
+    --slds-c-button-color-background: #00000000;
+    color: var(--white-color);
+}
