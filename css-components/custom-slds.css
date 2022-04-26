@@ -34,3 +34,7 @@ details[c-collapsible_section_collapsible_section] > summary[c-collapsible_secti
     --slds-c-button-color-background: #00000000;
     color: var(--white-color);
 }
+
+.slds-card {
+    background: var(--background-color);
+}
