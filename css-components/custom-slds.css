@@ -35,6 +35,13 @@ details[c-collapsible_section_collapsible_section] > summary[c-collapsible_secti
     color: var(--white-color);
 }
 
+.slds-button--neutral:active, .slds-button_neutral:active {
+    --slds-c-button-color-background-active: #00000000;
+    --slds-c-button-color-border-active: #00000000;
+    color: var(--white-color);
+}
+
+
 .slds-card {
     background: var(--background-color);
 }
