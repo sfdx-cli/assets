@@ -49,5 +49,6 @@ details[c-collapsible_section_collapsible_section] > summary[c-collapsible_secti
 }
 
 .slds-card {
+    --sds-c-card-text-color: var(--white-color);
     background: var(--background-color);
 }
